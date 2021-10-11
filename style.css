@@ -1,0 +1,74 @@
+body {
+  background-image: url("https://cdn3.vectorstock.com/i/1000x1000/42/02/nature-background-with-grass-and-light-effects-vector-2274202.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin: 0;
+  padding: 0;
+  width: 100%; /* full window width */
+  text-align: center;
+  font-size: 20px;
+}
+
+.header {
+  /*inline-size: 150px;*/
+  inline-size: min-content;
+  font-size: 150%;
+
+  justify-content: center;
+  align-items: center;
+}
+#myList {
+  line-height: 20pt;
+  vertical-align: middle;
+  display: inline-block;
+  list-style: none;
+}
+#myDIV {
+  width: 95%; /* of body width */
+}
+#myDIV > div {
+  display: inline-block;
+  width: 32%; /* of wrapper width */
+  margin: auto;
+  text-align: left;
+  justify-content: space-between;
+  margin: 5px auto;
+}
+h1 {
+  color: brown;
+}
+.complete_btn,
+.delete_btn {
+  padding: 0.5rem;
+  background: #ff3700;
+  color: white;
+  border: none;
+  margin-left: 0.2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+addButton {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+addButton:hover {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+addButton:active {
+  outline: none;
+  border: none;
+}
+
+addButton:focus {
+  outline: 0;
+}
+#tasksDone {
+  list-style: none;
+}
